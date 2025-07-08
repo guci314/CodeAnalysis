@@ -1,0 +1,352 @@
+{
+  "total_core_communities": 35,
+  "core_communities": {
+    "0": {
+      "size": 26,
+      "cohesion": 0.08,
+      "coupling": 0.018867924528301886,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2.py:validate_variables",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2.py:_categorize_state_relevance",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2.py:get_natural_language_analysis_summary",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_before_parser_integration.py:validate_variables",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_before_parser_integration.py:_categorize_state_relevance",
+        "/home/guci/aiProjects/AgentFrameWork/static_workflow/MultiStepAgent_v3.py:get_workflow_info",
+        "/home/guci/aiProjects/AgentFrameWork/static_workflow/MultiStepAgent_v3.py:_validate_workflow_legality",
+        "/home/guci/aiProjects/AgentFrameWork/static_workflow/MultiStepAgent_v3.py:_check_circular_references",
+        "/home/guci/aiProjects/AgentFrameWork/static_workflow/static_workflow_engine.py:_generate_execution_result",
+        "/home/guci/aiProjects/AgentFrameWork/static_workflow/workflow_definitions.py:validate"
+      ],
+      "total_nodes": 26
+    },
+    "1": {
+      "size": 24,
+      "cohesion": 0.09782608695652174,
+      "coupling": 0.01818181818181818,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/demo_agent_compression.py:chat_with_compression",
+        "/home/guci/aiProjects/AgentFrameWork/test_compression.py:test_message_compression",
+        "/home/guci/aiProjects/AgentFrameWork/message_compress.py:compress_messages",
+        "/home/guci/aiProjects/AgentFrameWork/performance_monitor.py:decorator",
+        "/home/guci/aiProjects/AgentFrameWork/agent_base.py:reduce_memory_decorator",
+        "/home/guci/aiProjects/AgentFrameWork/agent_base.py:reduce_memory_decorator_compress",
+        "/home/guci/aiProjects/AgentFrameWork/agent_base.py:decorator",
+        "/home/guci/aiProjects/AgentFrameWork/agent_base.py:_reduce_memory",
+        "/home/guci/aiProjects/AgentFrameWork/agent_base.py:_reduce_memory_compress",
+        "/home/guci/aiProjects/AgentFrameWork/agent_base.py:_fallback_token_strategy"
+      ],
+      "total_nodes": 24
+    },
+    "2": {
+      "size": 22,
+      "cohesion": 0.11688311688311688,
+      "coupling": 0.01818181818181818,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/debug_agent_issue.py:test_agent_registry_issue",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/test_agent_registration.py:test_agent_registration",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/test_agent_registry_fix.py:test_agent_registry_association",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/test_agent_registry_fix.py:test_explicit_agent_registry",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/test_agent_registry_fix.py:main",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/simple_registry_test.py:simple_registry_test",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/simple_registry_test.py:test_without_explicit_registry",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/simple_registry_test.py:main",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/test_simple_workflow.py:test_simple_workflow",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow_rule_base/__init__.py:create_production_rule_system"
+      ],
+      "total_nodes": 22
+    },
+    "3": {
+      "size": 18,
+      "cohesion": 0.29411764705882354,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/test_decision_system.py:create_test_agent",
+        "/home/guci/aiProjects/AgentFrameWork/test_decision_system.py:test_basic_decision_functionality",
+        "/home/guci/aiProjects/AgentFrameWork/test_decision_system.py:test_validation_decision",
+        "/home/guci/aiProjects/AgentFrameWork/test_decision_system.py:test_complex_state_conditions",
+        "/home/guci/aiProjects/AgentFrameWork/test_decision_system.py:test_decision_statistics",
+        "/home/guci/aiProjects/AgentFrameWork/test_decision_system.py:test_edge_cases",
+        "/home/guci/aiProjects/AgentFrameWork/test_error_handling_integration.py:create_test_agent",
+        "/home/guci/aiProjects/AgentFrameWork/test_error_handling_integration.py:test_error_handler_initialization",
+        "/home/guci/aiProjects/AgentFrameWork/test_error_handling_integration.py:test_error_classification",
+        "/home/guci/aiProjects/AgentFrameWork/test_error_handling_integration.py:test_error_handling_workflow"
+      ],
+      "total_nodes": 18
+    },
+    "4": {
+      "size": 17,
+      "cohesion": 0.14705882352941177,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/gemini_flash_integration.py:create_gemini_client",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/embodied_cognitive_workflow.py:create_cognitive_agent",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/embodied_cognitive_workflow.py:execute_cognitive_task",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/embodied_cognitive_workflow.py:create_embodied_cognitive_workflow",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/embodied_cognitive_workflow.py:execute_embodied_cognitive_task",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/demo_cognitive_debug.py:setup_logging",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/demo_cognitive_debug.py:demo_basic_cognitive_debug",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/demo_cognitive_debug.py:demo_debugging_features",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/demo_cognitive_debug.py:demo_gemini_integration",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/demo_cognitive_debug.py:demo_cognitive_debug_without_gemini"
+      ],
+      "total_nodes": 17
+    },
+    "5": {
+      "size": 16,
+      "cohesion": 0.125,
+      "coupling": 0.03225806451612903,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/demo_agent_compression.py:DemoAgent",
+        "/home/guci/aiProjects/AgentFrameWork/test_basic.py:MockAgent",
+        "/home/guci/aiProjects/AgentFrameWork/agent_base.py:AgentBase",
+        "/home/guci/aiProjects/AgentFrameWork/pythonTask.py:Thinker",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/embodied_cognitive_workflow.py:CognitiveAgent",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/super_ego_agent.py:SuperEgoAgent",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/cognitive_debug_agent.py:CognitiveDebugAgent",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/ego_agent.py:EgoAgent",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/id_agent.py:IdAgent",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow_rule_base/examples/test_resource_manager.py:CalculatorAgent"
+      ],
+      "total_nodes": 16
+    },
+    "6": {
+      "size": 14,
+      "cohesion": 0.15384615384615385,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/test_decision_system.py:main",
+        "/home/guci/aiProjects/AgentFrameWork/test_memory_optimization.py:main",
+        "/home/guci/aiProjects/AgentFrameWork/test_hybrid_approach.py:run_all_tests",
+        "/home/guci/aiProjects/AgentFrameWork/test_error_handling_integration.py:run_all_tests",
+        "/home/guci/aiProjects/AgentFrameWork/test_caching_conditional_logic.py:run_all_tests",
+        "/home/guci/aiProjects/AgentFrameWork/test_instruction_optimization.py:run_all_tests",
+        "/home/guci/aiProjects/AgentFrameWork/tests/verify_components.py:main",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_ipython_state_utils.py:test_func",
+        "/home/guci/aiProjects/AgentFrameWork/tests/config/test_config.py:load_api_key",
+        "/home/guci/aiProjects/AgentFrameWork/tests/config/test_config.py:check_deepseek_api_health"
+      ],
+      "total_nodes": 14
+    },
+    "7": {
+      "size": 12,
+      "cohesion": 0.16666666666666666,
+      "coupling": 0.043478260869565216,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2.py:MultiStepAgent_v2",
+        "/home/guci/aiProjects/AgentFrameWork/task_master_agent.py:TaskMasterAgent",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_before_parser_integration.py:MultiStepAgent_v2",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_backup.py:MultiStepAgent_v2",
+        "/home/guci/aiProjects/AgentFrameWork/pythonTask.py:Agent",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_refactored.py:MultiStepAgent_v2",
+        "/home/guci/aiProjects/AgentFrameWork/static_workflow/MultiStepAgent_v3.py:MultiStepAgent_v3",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow_adapter.py:CognitiveMultiStepAgent",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_multi_step_agent_v2.py:EchoAgent",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_multi_step_agent_v2.py:TextLengthAgent"
+      ],
+      "total_nodes": 12
+    },
+    "8": {
+      "size": 11,
+      "cohesion": 0.4909090909090909,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/test_enhanced_instruction_with_global_state.py:create_test_workflow",
+        "/home/guci/aiProjects/AgentFrameWork/test_enhanced_instruction_with_global_state.py:test_enhanced_instruction_with_global_state",
+        "/home/guci/aiProjects/AgentFrameWork/test_enhanced_instruction_with_global_state.py:test_instruction_content_comparison",
+        "/home/guci/aiProjects/AgentFrameWork/test_enhanced_instruction_with_global_state.py:test_different_global_states",
+        "/home/guci/aiProjects/AgentFrameWork/test_enhanced_instruction_with_global_state.py:main",
+        "/home/guci/aiProjects/AgentFrameWork/test_execution_history.py:create_test_workflow",
+        "/home/guci/aiProjects/AgentFrameWork/test_execution_history.py:test_execution_history",
+        "/home/guci/aiProjects/AgentFrameWork/test_loop_exit.py:create_test_workflow",
+        "/home/guci/aiProjects/AgentFrameWork/test_loop_exit.py:test_loop_exit_mechanism",
+        "/home/guci/aiProjects/AgentFrameWork/test_loop_fix.py:create_test_workflow"
+      ],
+      "total_nodes": 11
+    },
+    "9": {
+      "size": 11,
+      "cohesion": 0.18181818181818182,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/blue_print_patch_simple.py:add",
+        "/home/guci/aiProjects/AgentFrameWork/simple_calculator.py:add",
+        "/home/guci/aiProjects/AgentFrameWork/calculator_backup.py:add",
+        "/home/guci/aiProjects/AgentFrameWork/calculator.py:add",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/calculator.py:add",
+        "/home/guci/aiProjects/AgentFrameWork/calculator_project/calculator.py:add",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator.py:add",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator_project/calculator.py:add",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator_project/test_calculator.py:test_add",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow_rule_base/examples/calculator.py:add"
+      ],
+      "total_nodes": 11
+    },
+    "10": {
+      "size": 11,
+      "cohesion": 0.18181818181818182,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/blue_print_patch_simple.py:multiply",
+        "/home/guci/aiProjects/AgentFrameWork/simple_calculator.py:multiply",
+        "/home/guci/aiProjects/AgentFrameWork/calculator_backup.py:multiply",
+        "/home/guci/aiProjects/AgentFrameWork/calculator.py:multiply",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/calculator.py:multiply",
+        "/home/guci/aiProjects/AgentFrameWork/calculator_project/calculator.py:multiply",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator.py:multiply",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator_project/calculator.py:multiply",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator_project/test_calculator.py:test_multiply",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow_rule_base/examples/calculator.py:multiply"
+      ],
+      "total_nodes": 11
+    },
+    "11": {
+      "size": 10,
+      "cohesion": 0.37777777777777777,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/demo_static_workflow.py:main",
+        "/home/guci/aiProjects/AgentFrameWork/demo_static_workflow.py:setup_agent_team",
+        "/home/guci/aiProjects/AgentFrameWork/demo_static_workflow.py:create_demo_workflow",
+        "/home/guci/aiProjects/AgentFrameWork/demo_static_workflow.py:display_execution_result",
+        "/home/guci/aiProjects/AgentFrameWork/examples/dynamic_task_logging_demo.py:create_demo_workflow",
+        "/home/guci/aiProjects/AgentFrameWork/examples/dynamic_task_logging_demo.py:demo_dynamic_task_addition",
+        "/home/guci/aiProjects/AgentFrameWork/examples/dynamic_task_logging_demo.py:demo_error_scenarios",
+        "/home/guci/aiProjects/AgentFrameWork/examples/observability_demo.py:create_demo_workflow",
+        "/home/guci/aiProjects/AgentFrameWork/examples/observability_demo.py:demo_dynamic_task_addition",
+        "/home/guci/aiProjects/AgentFrameWork/examples/observability_demo.py:demo_error_scenarios"
+      ],
+      "total_nodes": 10
+    },
+    "12": {
+      "size": 10,
+      "cohesion": 0.2,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/simple_calculator.py:subtract",
+        "/home/guci/aiProjects/AgentFrameWork/calculator_backup.py:subtract",
+        "/home/guci/aiProjects/AgentFrameWork/calculator.py:subtract",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/calculator.py:subtract",
+        "/home/guci/aiProjects/AgentFrameWork/calculator_project/calculator.py:subtract",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator.py:subtract",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator_project/calculator.py:subtract",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator_project/test_calculator.py:test_subtract",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow_rule_base/examples/calculator.py:subtract",
+        "/home/guci/aiProjects/AgentFrameWork/project/calculator.py:subtract"
+      ],
+      "total_nodes": 10
+    },
+    "13": {
+      "size": 10,
+      "cohesion": 0.2,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/simple_calculator.py:divide",
+        "/home/guci/aiProjects/AgentFrameWork/calculator_backup.py:divide",
+        "/home/guci/aiProjects/AgentFrameWork/calculator.py:divide",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/calculator.py:divide",
+        "/home/guci/aiProjects/AgentFrameWork/calculator_project/calculator.py:divide",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator.py:divide",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator_project/calculator.py:divide",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/calculator_project/test_calculator.py:test_divide",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow_rule_base/examples/calculator.py:divide",
+        "/home/guci/aiProjects/AgentFrameWork/project/calculator.py:divide"
+      ],
+      "total_nodes": 10
+    },
+    "15": {
+      "size": 9,
+      "cohesion": 0.2222222222222222,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2.py:plan_execution",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2.py:_parse_decision",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_before_parser_integration.py:plan_execution",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_before_parser_integration.py:_parse_decision",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_backup.py:plan_execution",
+        "/home/guci/aiProjects/AgentFrameWork/enhancedAgent_v2_backup.py:_parse_decision",
+        "/home/guci/aiProjects/AgentFrameWork/pythonTask.py:extract_code",
+        "/home/guci/aiProjects/AgentFrameWork/pythonTask.py:evaluate",
+        "/home/guci/aiProjects/AgentFrameWork/static_workflow/MultiStepAgent_v3.py:_parse_llm_workflow_response"
+      ],
+      "total_nodes": 9
+    },
+    "14": {
+      "size": 9,
+      "cohesion": 0.4166666666666667,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_structured_superego.py:test_structured_superego",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_structured_superego.py:_validate_strategy_schema",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_structured_superego.py:_validate_regulation_schema",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_structured_superego.py:test_direct_structured_optimizer",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_all_superego_methods.py:test_all_superego_methods",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_all_superego_methods.py:_validate_strategy_schema",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_all_superego_methods.py:_validate_regulation_schema",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_all_superego_methods.py:_validate_reflection_schema",
+        "/home/guci/aiProjects/AgentFrameWork/embodied_cognitive_workflow/test_all_superego_methods.py:test_json_response_stability"
+      ],
+      "total_nodes": 9
+    },
+    "16": {
+      "size": 8,
+      "cohesion": 0.2857142857142857,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/ipython_state_utils.py:saveIpython",
+        "/home/guci/aiProjects/AgentFrameWork/ipython_state_utils.py:loadIpython",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_ipython_state_utils.py:test_save_and_load_ipython_state",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_ipython_state_utils.py:test_save_with_invalid_ipython",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_ipython_state_utils.py:test_load_with_invalid_ipython",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_ipython_state_utils.py:test_load_nonexistent_file",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_ipython_state_utils.py:test_skip_unsupported_objects",
+        "/home/guci/aiProjects/AgentFrameWork/tests/test_ipython_state_utils.py:test_save_and_load_with_run_cell"
+      ],
+      "total_nodes": 8
+    },
+    "17": {
+      "size": 8,
+      "cohesion": 0.25,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/test_response_parser_v2.py:test_rule_parser",
+        "/home/guci/aiProjects/AgentFrameWork/test_response_parser_v2.py:test_transformer_parser",
+        "/home/guci/aiProjects/AgentFrameWork/test_response_parser_v2.py:test_deepseek_parser",
+        "/home/guci/aiProjects/AgentFrameWork/test_response_parser_v2.py:test_embedding_parser",
+        "/home/guci/aiProjects/AgentFrameWork/test_response_parser_v2.py:test_hybrid_parser",
+        "/home/guci/aiProjects/AgentFrameWork/test_response_parser_v2.py:test_config_variations",
+        "/home/guci/aiProjects/AgentFrameWork/test_response_parser_v2.py:test_performance",
+        "/home/guci/aiProjects/AgentFrameWork/test_response_parser_v2.py:main"
+      ],
+      "total_nodes": 8
+    },
+    "18": {
+      "size": 7,
+      "cohesion": 0.47619047619047616,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow.py:safe_get_result_return_value",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow.py:safe_get_result_error",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow.py:update_state",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow.py:_update_global_state",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow.py:_handle_no_executable_tasks",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow.py:_handle_task_failure",
+        "/home/guci/aiProjects/AgentFrameWork/CognitiveWorkflow/cognitive_workflow.py:get_task_status_report"
+      ],
+      "total_nodes": 7
+    },
+    "21": {
+      "size": 6,
+      "cohesion": 0.6666666666666666,
+      "coupling": 0.0,
+      "nodes": [
+        "/home/guci/aiProjects/AgentFrameWork/test_taskmaster_deepseek.py:create_deepseek_llm",
+        "/home/guci/aiProjects/AgentFrameWork/test_taskmaster_deepseek.py:create_deepseek_agents",
+        "/home/guci/aiProjects/AgentFrameWork/test_taskmaster_deepseek.py:test_taskmaster_with_deepseek",
+        "/home/guci/aiProjects/AgentFrameWork/test_status_fix.py:create_deepseek_llm",
+        "/home/guci/aiProjects/AgentFrameWork/test_status_fix.py:create_test_agents",
+        "/home/guci/aiProjects/AgentFrameWork/test_status_fix.py:test_status_management_fix"
+      ],
+      "total_nodes": 6
+    }
+  }
+}

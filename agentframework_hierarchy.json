@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "total_nodes": 3217,
+    "total_edges": 454,
+    "layers": {
+      "layer1": {
+        "communities": 2864,
+        "modularity": 0.953822119583147,
+        "large_systems": 14
+      },
+      "layer2": {
+        "communities": 2902,
+        "modularity": 0.8632954258766896
+      },
+      "layer3": {
+        "communities": 3108,
+        "modularity": 0.24724912185371367
+      }
+    }
+  }
+}

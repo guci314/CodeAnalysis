@@ -1,0 +1,18 @@
+{
+  "project": "/home/guci/aiProjects/AgentFrameWork/",
+  "analysis_time": "2025-07-08T00:07:00.452258",
+  "files": {
+    "project_summary.json": "项目基础信息和统计",
+    "graph.json": "完整的知识图谱数据（之前生成）",
+    "hierarchical_communities.json": "多分辨率层次社区检测结果",
+    "algorithm_comparison.json": "不同算法的比较结果",
+    "core_communities.json": "核心社区详细分析",
+    "architecture_insights.json": "架构洞察和优化建议"
+  },
+  "quick_stats": {
+    "total_nodes": 3217,
+    "total_edges": 454,
+    "main_subsystems": 2864,
+    "core_subsystems": 35
+  }
+}

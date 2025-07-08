@@ -1,0 +1,20 @@
+{
+  "project_path": "/home/guci/aiProjects/AgentFrameWork/",
+  "analysis_time": "2025-07-08T00:06:54.698175",
+  "summary": {
+    "project_path": "/home/guci/aiProjects/AgentFrameWork",
+    "total_files": 225,
+    "total_classes": 481,
+    "total_functions": 2736,
+    "graph_complexity": {
+      "nodes": 3217,
+      "edges": 454
+    }
+  },
+  "graph_info": {
+    "nodes": 3217,
+    "edges": 454,
+    "density": 4.38685955836306e-05,
+    "avg_degree": 0.28225054398507926
+  }
+}
